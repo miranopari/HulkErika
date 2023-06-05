@@ -1,0 +1,280 @@
+{
+   "qTitle":"Virtual Embodiment Questionnaire",
+   "qInstructions":"Please select your level of agreement with the following statements.",
+   "qId":"VEQ",
+   "questions":[
+      {
+         "pId":"page1",
+         "qType":"radio",
+         "qInstructions":"During the experiment there were moments in which...",
+         "qData":[
+            {
+               "qId":"q1",
+               "qText":"I felt out of my body.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q2",
+               "qText":"I felt as if my (real) body were drifting toward the virtual body or as if the virtual body were drifting toward my (real) body.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q3",
+               "qText":"I felt as if the movements of the virtual body were influencing my own movements.",
+               "qMandatory":"true",
+               "qOptions":[
+				  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            }
+         ]
+      },
+      {
+         "pId":"page2",
+         "qType":"radio",
+         "qInstructions":"During the experiment there were moments in which...",
+         "qMandatory":"true",
+         "qData":[
+            {
+               "qId":"q4",
+               "qText":"It felt as if my (real) body were turning into an 'avatar' body.",
+               "qMandatory":"true",
+               "qOptions":[
+				  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q5",
+               "qText":"It felt as if my real body was starting to take on the posture or shape of the virtual body that I saw.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q6",
+               "qText":"I felt like I was wearing different clothes from when I came to the laboratory.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            }
+         ]
+      },
+      {
+         "pId":"page2",
+         "qType":"radio",
+         "qInstructions":"During the experiment there were moments in which...",
+         "qMandatory":"true",
+         "qData":[
+            {
+               "qId":"q7",
+               "qText":"I felt as if my body was stronger.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q8",
+               "qText":"I felt a realistic sensation in my body when I broke the stones.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q9",
+               "qText":"I felt that my own body could have been affected by the virtual world.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            }
+         ]
+      },
+      {
+         "pId":"page2",
+         "qType":"radio",
+         "qInstructions":"During the experiment there were moments in which...",
+         "qMandatory":"true",
+         "qData":[
+            {
+               "qId":"q10",
+               "qText":"I felt as if the virtual body was my body.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q11",
+               "qText":"It felt that the virtual body resembled my own (real) body in terms of shape/skin tone/other visual features.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q12",
+               "qText":"I felt as if my body was located where I saw the virtual body",
+               "qMandatory":"true",
+               "qOptions":[
+				  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            }
+         ]
+      },
+      {
+         "pId":"page2",
+         "qType":"radio",
+         "qInstructions":"During the experiment there were moments in which...",
+         "qMandatory":"true",
+         "qData":[
+            {
+               "qId":"q13",
+               "qText":"I felt like I could control the virtual body as if it was my own body.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q14",
+               "qText":"It seemed as if I felt the touch of the stones in the location where I saw the virtual hands touched.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            },
+            {
+               "qId":"q15",
+               "qText":"It seemed as if the touch I felt was caused by the stones touching the virtual hands.",
+               "qMandatory":"true",
+               "qOptions":[
+				  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            }
+         ]
+      },
+      {
+         "pId":"page2",
+         "qType":"radio",
+         "qInstructions":"During the experiment there were moments in which...",
+         "qMandatory":"true",
+         "qData":[
+            {
+               "qId":"q16",
+               "qText":"It seemed as if my feet were touching the virtual floor.",
+               "qMandatory":"true",
+               "qOptions":[
+                  "1 = strongly disagree",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7 = strongly agree"
+               ]
+            }
+         ]
+      }
+   ],
+   "qMessage":"You have completed the questionnaire",
+   "qAcknowledgments":"Thank you very much for taking part in the experiment! We appreciate your time!"
+}

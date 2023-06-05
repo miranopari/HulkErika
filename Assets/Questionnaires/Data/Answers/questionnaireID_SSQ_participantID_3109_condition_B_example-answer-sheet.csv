@@ -1,0 +1,17 @@
+radio,General discomfort,q1,0
+radio,Fatique,q2,0
+radio,Headache,q3,0
+radio,Eye strain,q4,1
+radio,Difficulty focusing,q5,0
+radio,Salivation increasing,q6,0
+radio,Sweating,q7,0
+radio,Nausea,q8,0
+radio,Difficulty concentrating,q9,0
+radio,Fullness of the Head,q10,0
+radio,Blurred vision,q11,0
+radio,Dizziness with eyes open,q12,0
+radio,Dizziness with eyes closed,q13,0
+radio,Vertigo (experienced as loss of orientation with respect to vertical upright),q14,0
+radio,Stomach awareness (feeling of discomfort which is just short of nausea),q15,0
+radio,Burping,q16,0
+

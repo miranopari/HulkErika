@@ -1,0 +1,19 @@
+{
+    "name": "fr.inria.avatar.avatar-ready",
+    "version": "1.0.2",
+    "displayName": "AvatarReady",
+    "description": "Quick and easy Avatar in XR",
+    "unity": "2020.1",
+    "dependencies": {},
+    "keywords": [
+      "unity",
+      "avatar",
+      "vr"
+    ],
+    "author": {
+        "name": "Adrien Reuzeau",
+        "email": "adrien.reuzeau@inria.fr",
+        "url": "https://avatar.inria.fr/"
+    }
+  }
+  
