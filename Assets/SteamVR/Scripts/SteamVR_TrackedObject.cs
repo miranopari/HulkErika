@@ -6,11 +6,35 @@
 
 using UnityEngine;
 using Valve.VR;
+using System;
 
 namespace Valve.VR
 {
     public class SteamVR_TrackedObject : MonoBehaviour
     {
+        //追加￥したよ
+        public string SerialStr;//シリアルナンバーを入れる
+        private static CVRSystem openVRSystem => _openVRSystem ?? (_openVRSystem = OpenVR.System);
+        private static CVRSystem _openVRSystem;
+
+        //インデックスを入れるとシリアルナンバーを出してくれる関数
+        
+        public static string GetDeviceSerialNumber(uint deviceIndex)
+        {
+            var error = default(ETrackedPropertyError);
+            int capacity = 512;
+            var buffer = new System.Text.StringBuilder(capacity);
+            openVRSystem.GetStringTrackedDeviceProperty(deviceIndex, ETrackedDeviceProperty.Prop_SerialNumber_String, buffer, (uint)capacity, ref error);
+            if (error != ETrackedPropertyError.TrackedProp_Success) {
+                return null;
+            }
+            return buffer.ToString();
+        }
+
+        //deviceIndexを
+        //public void 
+
+
         public enum EIndex
         {
             None = -1,
@@ -82,7 +106,25 @@ namespace Valve.VR
 
         private void Awake()
         {
+
             OnEnable();
+            uint i =0;
+            
+            foreach(EIndex tmpIndex in Enum.GetValues(typeof(EIndex)))
+            //foreach (SamuraiEnum Value in Enum.GetValues(typeof(SamuraiEnum)))
+            {
+                string name = Enum.GetName(typeof(EIndex), tmpIndex);
+ 
+                Debug.Log("i:"+i);
+                
+                if(GetDeviceSerialNumber(i)==SerialStr){
+                    index=tmpIndex;
+                    Debug.Log("見つかった");
+                    Debug.Log(index);
+                }
+                i++;
+            }
+            //Debug.Log(GetDeviceSerialNumber(i)) ;
         }
 
         void OnEnable()
