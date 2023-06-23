@@ -11,10 +11,17 @@ public class AnimateHands : MonoBehaviour
     private void Start()
     {
         animator = avatar.GetComponent<Animator>();
-        SteamVR_Actions.default_GrabPinch.AddOnStateDownListener(LeftTriggerPressed, SteamVR_Input_Sources.LeftHand);
-        SteamVR_Actions.default_GrabPinch.AddOnStateUpListener(LeftTriggerUnpressed, SteamVR_Input_Sources.LeftHand);
-        SteamVR_Actions.default_GrabPinch.AddOnStateDownListener(RightTriggerPressed, SteamVR_Input_Sources.RightHand);
-        SteamVR_Actions.default_GrabPinch.AddOnStateUpListener(RightTriggerUnpressed, SteamVR_Input_Sources.RightHand);
+        // SteamVR_Actions.default_GrabPinch.AddOnStateDownListener(LeftTriggerPressed, SteamVR_Input_Sources.LeftHand);
+        // SteamVR_Actions.default_GrabPinch.AddOnStateUpListener(LeftTriggerUnpressed, SteamVR_Input_Sources.LeftHand);
+        // SteamVR_Actions.default_GrabPinch.AddOnStateDownListener(RightTriggerPressed, SteamVR_Input_Sources.RightHand);
+        // SteamVR_Actions.default_GrabPinch.AddOnStateUpListener(RightTriggerUnpressed, SteamVR_Input_Sources.RightHand);
+        
+        //edit Erika 2023/6/23
+        SteamVR_Actions.default_GrabPinch.AddOnStateDownListener(RightTriggerPressed, SteamVR_Input_Sources.LeftHand);
+        SteamVR_Actions.default_GrabPinch.AddOnStateUpListener(RightTriggerUnpressed, SteamVR_Input_Sources.LeftHand);
+        SteamVR_Actions.default_GrabPinch.AddOnStateDownListener(LeftTriggerPressed, SteamVR_Input_Sources.RightHand);
+        SteamVR_Actions.default_GrabPinch.AddOnStateUpListener(LeftTriggerUnpressed, SteamVR_Input_Sources.RightHand);
+        //edit end
     }
 
     private void LeftTriggerPressed(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
